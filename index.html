@@ -28,7 +28,7 @@
 <body class="Manrope-font">
     <header class="container lg:max-w-6xl mx-auto mb-12">
         <!-- started the navbar -->
-        <nav>
+        <nav class="m-2">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -69,7 +69,7 @@
         <!-- end the navbar -->
 
         <!-- started the banner section -->
-        <div class="relative mt-12">
+        <div class="relative mt-12 m-4">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full" />
@@ -168,7 +168,7 @@
                     vibrant canvas, woven with diverse threads of learning, growth, and community engagement.</p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-6 gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-6 m-4 gap-4">
                 <!-- first card -->
                 <div class="col-span-6 lg:col-span-3">
                     <div class="card  image-full">
@@ -239,7 +239,7 @@
         <!-- end the second section -->
 
         <!-- started the third section -->
-        <section class="mt-12">
+        <section class="mt-12 m-4">
             <div class="text-center max-w-sm lg:max-w-xl mx-auto space-y-4 mb-6">
                 <h3 class="text-2xl lg:text-4xl font-semibold">Our New Products</h3>
                 <p class="text-sm">Excitement is in the air as we proudly introduce our latest range of products, each a
@@ -249,7 +249,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
-                <div class="flex shadow-xl rounded-2xl p-8">
+                <div class="flex lg:flex-row shadow-xl rounded-2xl p-8">
                     <div>
                         <img src="Images/5.png" alt="">
                     </div>
@@ -449,8 +449,81 @@
         </section>
         <!-- end the third section -->
 
+        <!-- started the extra bonus section -->
+       <section>
+        <div class="text-center max-w-sm lg:max-w-xl mx-auto space-y-4 mt-12">
+            <h3 class="text-2xl lg:text-4xl font-semibold">Clients Question</h3>
+            <p class="text-sm">we understand the importance of clear communication. If you have any questions or concerns, our dedicated team is here to assist you</p>
+        </div>
+            <div class="flex flex-col lg:flex-row m-4 justify-center gap-4 lg:gap-20">
+                <div class="flex justify-center mx-auto">
+                    <img src="Images/11.png" alt="">
+                </div>
+
+                <div class="space-y-4">
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            What safety measures are in place for younger players?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Certified coaches, mandatory gear, and strict guidelines.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            What age groups can join the hockey club?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>All ages are welcome, from youth to adult levels.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            How often are training sessions held?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Weekly sessions, lasting 1.5 to 2 hours each.</p>
+                        </div>
+                      </div>
+
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Do you provide gear for beginners?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p> We offer guidance and may provide initial gear.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Are there competitive play opportunities?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Yes, at various skill levels.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            How can parents get involved in the community?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Volunteer as coaches, assist with events, or join the booster club.</p>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+       </section>
+        <!-- end the extra bonus section -->
+
         <!-- started the bonus section -->
-        <section class="mt-12">
+        <section class="mt-12 m-4">
             <div class="text-center max-w-sm lg:max-w-xl mx-auto space-y-4">
                 <h3 class="text-2xl lg:text-4xl font-semibold">Get In Touch</h3>
                 <p class="text-sm">We value your feedback, inquiries, and the opportunity to connect with you. Getting
@@ -459,7 +532,7 @@
             <!-- start -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
 
-                <div class="lg:max-w-[70%] lg:ml-16">
+                <div class="lg:max-w-[70%] m-4  lg:ml-16">
                     <div class=" bg-[#bced6e1a] p-4 rounded-xl space-y-4">
                         <img src="Images/Group 1171275317.png" alt="">
                         <div class=" w-36 space-y-2">
@@ -529,7 +602,7 @@
                                 placeholder="write your message" id="" cols="32" rows="6"></textarea>
                         </div>
                         <div class="flex justify-center">
-                            <button class="bg-[#FF4240] mt-8 text-white px-[160px] py-4 rounded-md">send
+                            <button class="bg-[#FF4240] mt-8 text-white px-[140px] py-4 rounded-md">send
                                 message</button>
                         </div>
                     </div>
@@ -550,54 +623,62 @@
         <!-- end the bonus section -->
     </main>
     <footer>
-        <div class="bg-[#131318] p-24">
+        <div class="bg-[#131318] p-12 rounded-xl">
             <div class="grid grid-cols-1 lg:grid-cols-3">
                 <div class="text-white space-y-4 mt-0 lg:mt-12">
                     <h1 class="text-2xl font-semibold text-center">Get In Touch</h1>
                     <p class="text-sm text-center">Have questions, feedback, We'd love to hear from you! Feel free to
                         reach out through any of the following channels</p>
-                    <div class="ml-8 lg:ml-24">
-                        <div class="flex">
-                            <div>
-                                <img src="Images/Frame.png" alt="">
+                    <div class="flex justify-center">
+                        <div>
+                            <div class="flex">
+                                <div>
+                                    <img src="Images/Frame.png" alt="">
+                                </div>
+                                <a class="link link-hover text-center  px-3">hockeys@support.com</a>
                             </div>
-                            <a class="link link-hover text-center  px-3">hockeys@support.com</a>
-                        </div>
-                        <div class="flex">
-                            <div class="flex justify-center">
-                                <img src="Images/Frame (1).png" alt="">
+                            <div class="flex">
+                                <div class="flex justify-center">
+                                    <img src="Images/Frame (1).png" alt="">
+                                </div>
+                                <a class="link link-hover text-center px-3">(+62) 123-321-543</a>
                             </div>
-                            <a class="link link-hover text-center px-3">(+62) 123-321-543</a>
                         </div>
+    
                     </div>
-
                 </div>
 
                 <div class="grid grid-cols-2 ml-6">
-                    <div class="text-white grid mt-12 lg:grid-cols-1 space-y-2  lg:ml-14">
-                        <h3 class="text-xl font-semibold">Company</h3>
-                        <a class="link link-hover">About us</a>
-                        <a class="link link-hover">Leadership</a>
-                        <a class="link link-hover">Careers</a>
-                        <a class="link link-hover">News & Article </a>
-                        <a class="link link-hover">Legal Notice </a>
+                    <div class="flex justify-center">
+                        <div class="text-white grid mt-12 lg:grid-cols-1 space-y-2  lg:ml-14">
+                            <h3 class="text-xl font-semibold">Company</h3>
+                            <a class="link link-hover">About us</a>
+                            <a class="link link-hover">Leadership</a>
+                            <a class="link link-hover">Careers</a>
+                            <a class="link link-hover">News & Article </a>
+                            <a class="link link-hover">Legal Notice </a>
+                        </div>
                     </div>
-                    <div class="text-white grid lg:grid-cols-1 mt-12 space-y-2 lg:ml-36">
-                        <h3 class="text-xl font-semibold">Support</h3>
-                        <a class="link link-hover">Help Center</a>
-                        <a class="link link-hover">FAQ</a>
-                        <a class="link link-hover">Ticket Support</a>
-                        <a class="link link-hover">Contact us</a>
+                    <div class="flex justify-center">
+                        <div class="text-white grid lg:grid-cols-1 mt-12 space-y-2 lg:ml-36">
+                            <h3 class="text-xl font-semibold">Support</h3>
+                            <a class="link link-hover">Help Center</a>
+                            <a class="link link-hover">FAQ</a>
+                            <a class="link link-hover">Ticket Support</a>
+                            <a class="link link-hover">Contact us</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="text-white grid grid-cols-1 mt-12 ml-20 space-y-2 lg:ml-56">
-                    <h3 class="text-xl font-semibold">Services</h3>
-                    <a class="link link-hover">Academy</a>
-                    <a class="link link-hover">Group Lesson</a>
-                    <a class="link link-hover">Private Lesson</a>
-                    <a class="link link-hover">Hockeys for kids</a>
-                    <a class="link link-hover">Hockeys for Adult</a>
+                <div class="flex justify-center">
+                    <div class="text-white grid grid-cols-1 mt-12 space-y-2 lg:ml-56">
+                        <h3 class="text-xl font-semibold">Services</h3>
+                        <a class="link link-hover">Academy</a>
+                        <a class="link link-hover">Group Lesson</a>
+                        <a class="link link-hover">Private Lesson</a>
+                        <a class="link link-hover">Hockeys for kids</a>
+                        <a class="link link-hover">Hockeys for Adult</a>
+                    </div>
                 </div>
                 <div>
 
